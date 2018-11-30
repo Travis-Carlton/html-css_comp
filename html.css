@@ -1,0 +1,70 @@
+body{
+    height: 200vh;
+    width: 100vw;
+    background: url('https://i.pinimg.com/736x/96/0d/12/960d12a50b9186523a147ba4fa05e208--nike-womens-shoes-cheap-nike-running-shoes.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: cover;
+
+}
+body > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    max-width: 80%;
+    background: grey;
+    /* position: fixed; */
+
+}
+img{
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    z-index: 1;
+    transform: translate(550px,-35px);
+}
+img + p {
+    font-size: 12px;
+    color: blue;
+}
+body main{
+    height: 80%;
+    width: 100%;
+    max-width: 80%;
+    background: darkcyan;
+}
+
+.footer{
+    height: 10%;
+    width: 100%;
+    max-width: 80%;
+    background: darkred;
+}
+#hdiv{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 30%;
+    height: 50%;
+    background: darkorchid;
+    padding: 10px;
+    border: 5px solid green;
+    margin: 10px;
+}
+/* .bimg{
+    height: 75%;
+    width: 25%;
+} */
+#hdiv a{
+    float: right;
+    font-size: 20px;
+    font-weight: 900;
+    color: aqua;
+}
